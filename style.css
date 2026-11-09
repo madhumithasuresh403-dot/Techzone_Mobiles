@@ -1,0 +1,534 @@
+.head
+{
+height:300px;
+width:100%;
+background:darkblue;
+display: flex;
+margin-left:auto;
+margin-right:auto;
+margin-top: auto;
+justify-content: space-between;
+}
+.tail h1
+{
+  height:100px;
+  width:100px;
+  font-size: 50px; 
+  font-weight:bold;
+  text-align: center;
+  top: 20px;
+position:relative;
+ left:400px;
+  color:white  
+}
+
+.size img
+{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    position: relative;
+    bottom: -45px;
+    right: 3px;
+    top:10 px;  
+}     
+.win {
+  padding-top:250px;
+   display: flex;
+   gap: 30px;
+   border-bottom: 8pxsolid wheat;
+   margin-left: auto;
+}
+.win a
+{
+  text-decoration: none;
+  color:yellow;
+font-size:18px;
+font-weight:bold;
+margin-top:10px;
+border-bottom: 8pxsolid wheat;
+padding-bottom:5px transparent;
+transition:0.3s;
+}
+.win a:hover
+{
+  border-bottom:3px solid yellow;
+ border-radius: 50px;
+  height: 1cm;
+  bottom:0;
+}
+footer
+{
+  background: darkblue;
+  color: white;
+  height: 300px;
+  padding: 20px 20px;
+  width:100%;
+  text-align: center;
+}
+footer h2
+{
+  color:white;
+  margin-bottom: column;
+}
+.hey
+{ 
+  display: flex;
+  flex-direction: column;
+  gap: 3px ;
+
+}
+.social-icons
+{
+  margin-top:10px ;
+}
+.social-icons a{
+  color:yellow;
+  font-size:20px;
+  margin: 0 10px;
+}
+.social-icons a:hover{
+  color:yellow;
+}
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:cement;
+    color:#333;
+}
+
+/* Hero Section */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 10%;
+    background:#eaf2ff;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:45px;
+    color:#0a2a66;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:18px;
+    line-height:30px;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    background:#0a2a66;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 30px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+.hero-image{
+    width:45%;
+    text-align:center;
+}
+
+.hero-image img{
+    width:350px;
+    max-width:100%;
+}
+
+/* Products */
+.products{
+    padding:60px 10%;
+    text-align:center;
+}
+
+.products h2{
+    font-size:35px;
+    color:#0a2a66;
+    margin-bottom:40px;
+}
+
+.product-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:170px;
+    height:200px;
+    object-fit:contain;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.card p{
+    color:#0a2a66;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.card button{
+    background:#0a2a66;
+    color:#fff;
+    border:none;
+    padding:10px 25px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.card button:hover{
+    background:#1d4ed8;
+}
+
+/* Offer Banner */
+.offer-banner{
+    margin: 60px 10%;
+    background: #084298;
+    color:#eaf2ff;
+    text-align: center;
+    padding: 40px;
+    border-radius:12px ;
+}
+
+
+.offer-page{
+    padding:60px 10%;
+    text-align:center;
+    background:#f8f9fa;
+}
+
+.offer-page h1{
+    color:#0d3b66;
+    margin-bottom:10px;
+}
+
+.offer-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.offer-card{
+    width:250px;
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.offer-card:hover{
+    transform:translateY(-10px);
+}
+
+.offer-card img{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+}
+
+.old-price{
+    text-decoration:line-through;
+    color:red;
+} 
+
+.new-price{
+    color:green;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.buy-btn{
+    display:inline-block;
+    margin-top:15px;
+    background:#0d6efd;
+    color:#fff;
+    padding:10px 20px;
+    border-radius:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.buy-btn:hover{
+    background:#084298;
+}
+
+
+
+
+
+/* Contact Page */
+
+.contact{
+    padding:60px 10%;
+    text-align:center;
+    background:#f5f5f5;
+}
+
+.contact h1{
+    color:#0d3b66;
+    margin-bottom:10px;
+}
+
+.contact p{
+    margin-bottom:30px;
+    color:#555;
+}
+
+.contact-box{
+    max-width:600px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-box input,
+.contact-box textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.contact-box button{
+    width:100%;
+    padding:12px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.contact-box button:hover{
+    background:#084298;
+}
+
+/* Accessories Page */
+
+.accessories{
+    padding:60px 10%;
+    background:#f8f9fa;
+    text-align:center;
+}
+
+.accessories h1{
+    color:#0d3b66;
+    margin-bottom:10px;
+}
+
+.accessories p{
+    color:#555;
+    margin-bottom:30px;
+}
+
+.accessories-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.accessory-card{
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.accessory-card:hover{
+    transform:translateY(-10px);
+}
+
+.accessory-card img{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+}
+
+.price{
+    color:green;
+    font-size:22px;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.buy-btn{
+    display:inline-block;
+    background:#0d6efd;
+    color:#fff;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.buy-btn:hover{
+    background:#084298;
+}
+
+/* Mobile Page */
+
+.mobiles{
+    padding:60px 10%;
+    background:#f8f9fa;
+    text-align:center;
+}
+
+.mobiles h1{
+    color:#0d3b66;
+    margin-bottom:10px;
+}
+
+.mobiles p{
+    color:#555;
+    margin-bottom:30px;
+}
+
+.mobile-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.mobile-card{
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.mobile-card:hover{
+    transform:translateY(-10px);
+}
+
+.mobile-card img{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+}
+
+.price{
+    color:green;
+    font-size:22px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.buy-btn{
+    display:inline-block;
+    margin-top:15px;
+    background:#0d6efd;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+    text-decoration:none;
+}
+
+.buy-btn:hover{
+    background:#084298;
+}
+
+/* ORDER PAGE */
+
+.order{
+    padding:60px 10%;
+    background:#f8f9fa;
+    text-align:center;
+}
+
+.order h1{
+    color:#0d3b66;
+    margin-bottom:10px;
+}
+
+.order p{
+    margin-bottom:20px;
+    color:#555;
+}
+
+.order-box{
+    width:450px;
+    margin:30px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.order-box form{
+    display:block;
+}
+
+.order-box input,
+.order-box textarea,
+.order-box select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.order-box button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.order-box button:hover{
+    background:#084298;
+}
